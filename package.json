@@ -1,0 +1,19 @@
+{
+  "name": "caixa-eletronico",
+  "version": "1.0.0",
+  "description": "implementacao de um caixa eletronico",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "aula",
+    "js",
+    "node"
+  ],
+  "author": "tassio",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
