@@ -6,4 +6,9 @@ let valor = readline.question("Quanto gostaria de sacar ?");
 
 let notas20 = valor / 20;
 
-console.log(`Notas de 20: ${notas20} `);
+let resto =  valor % 20;
+
+if (resto === 0)
+    console.log(`Notas de 20: ${notas20} `);
+else
+    console.log("O valor inserido e invalido, por favor, insira numeros multiplos de 20.");
